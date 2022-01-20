@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Sistema_PDV
 {
-    public partial class Form1 : Form
+    public partial class FormCategorias : Form
     {
-        public Form1()
+        public FormCategorias()
         {
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
